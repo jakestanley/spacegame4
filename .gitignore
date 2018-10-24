@@ -1,0 +1,27 @@
+# Windows
+*.exe
+
+# IDEA
+*.iml
+*.ipr
+*.iws
+*/.idea/
+
+# Java
+*/target
+
+# Node & Angular
+*/node_modules
+*/dist/
+bazel-*
+e2e_test.*
+bower_components
+tools/gulp-tasks/cldr/cldr-data/
+*/secret.js
+*/npm-debug.log
+*/yarn-error.log
+
+# VSCode
+*/.vscode
+*/pubspec.lock
+*/.settings/
